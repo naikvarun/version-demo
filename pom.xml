@@ -14,7 +14,11 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    <scm>
+        <connection>scm:git:git://github.com/naikvarun/version-demo.git</connection>
+        <developerConnection>scm:git:ssh://github.com:naikvarun/version-demo.git</developerConnection>
+        <url>https://github.com/naikvarun/version-demo</url>
+    </scm>
     <build>
         <plugins>
             <plugin>
